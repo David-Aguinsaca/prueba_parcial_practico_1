@@ -8,9 +8,6 @@ const mascotaRoutes = require('./routes/mascota.routes');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middlewares
-app.use(cors());
-app.use(morgan('dev'));
 app.use(express.json());
 
 // Rutas de la API
